@@ -1,0 +1,39 @@
+*{
+    margin: 0 auto;
+}
+html,body{
+    overflow-x: hidden;  
+    overflow-y: hidden;  
+}
+#bg{
+    width: 100%;
+    height: 670px;
+    position: relative;
+    z-index: 1;
+}
+.form{
+    position: absolute;
+    z-index: 2;
+    width: 28%;
+    height: 530px;
+    right: 70px;
+    top: 180px;
+    background-color: black;
+    color:lightgreen;
+    text-align: center;
+    padding-top: 20px;
+    font-family: monospace;
+    font-size: 17px;
+    overflow-y: auto;
+}
+#bu1{
+    border: 5px solid lightgreen;
+    font-size: 22px;
+    background-color: lightgreen;   
+    color: darkgreen;
+    border-radius:10px;
+}
+#bu1:hover{
+    text-shadow: 2px 2px 4px darkgreen;
+    font-size: 24px;
+}

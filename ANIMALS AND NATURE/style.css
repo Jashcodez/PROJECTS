@@ -1,0 +1,146 @@
+*{
+      margin: 0 auto;
+}
+.head{
+    max-width: 100%;
+    background-color:lightgreen;
+    border-bottom: 1px dotted darkgreen;
+    height: 100px;
+    font-family: 'Londrina Shadow', cursive;
+    z-index: 3;;
+    position: sticky;
+    top: 0;
+}
+.h1{
+    color: white;
+    position: absolute;
+    top: 18px;
+    left: 30px;
+    font-size: 22px;
+    text-shadow: 1px 1px 3px green;
+}
+.fb{
+    position: absolute;
+    color: white;
+    left: 1450px;
+    top: 30px;
+    font-size: 40px; 
+}
+.fb:hover{
+    color: darkblue;
+    text-shadow: 2px 2px 4px darkblue;
+    opacity: 0.8;
+    font-size: 45px;
+}
+.twi{
+    color: white;
+    position: absolute;
+    left: 1370px;
+    top: 30px;
+    font-size: 42px; 
+}
+.twi:hover{
+    color: blue;
+    opacity: 0.8;
+    text-shadow: 2px 2px 4px blue;
+    font-size: 45px;
+
+}
+.wiki{
+    color: white;
+    position: absolute;
+    left: 1283px;
+    top: 30px;
+    font-size: 40px; 
+}
+.wiki:hover{
+    color: black;
+    font-size: 45px;
+    text-shadow: 2px 2px 4px black;
+    opacity: 0.8;
+}
+.ig{
+    color: white;
+    position: absolute;
+    left: 1210px;
+    top: 29px;
+    font-size: 45px; 
+}
+.ig:hover{
+    color: hotpink;
+    font-size: 45px;
+    text-shadow: 2px 2px 4px hotpink;
+}
+#i1{
+    position: static;
+    width: 100%;
+    height: 760px;
+    z-index: 1;
+}
+img{
+    width: 100%;
+    height: 820px;
+}
+#i1{
+    width: 100%;
+    background-size: contain;
+    height: 680px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: -20px;
+}
+.h2{
+    z-index: 2;
+    font-family: 'Piedra', cursive; 
+    color: lightgreen; 
+    font-size: 40px;
+    position: absolute;
+    bottom: 450px;
+    left: 100px;
+    text-decoration: underline;
+    text-decoration-style:dotted  ;  
+}
+.con1{
+    font-family: 'Kite One', sans-serif;
+    border: 1px solid yellowf;
+    position: absolute;
+    text-align: justify;
+    font-size: 24px;
+    bottom: 200px;
+    z-index: 3;
+    width: 25%;
+    color: lightgreen;
+    left: 100px;
+    line-height: 50px; 
+}
+#s1{
+    color: lightgreen;
+    position: absolute;
+    left: 310px;
+    bottom: 170px;
+    z-index: 3;
+    font-size: 21px;
+    font-family: 'Kite One', sans-serif;
+}
+.signup{
+    z-index: 4;
+    position: absolute;
+    bottom:100px;
+    left: 200px;
+}
+button{
+    border: 5px solid lightgreen;
+    font-size: 22px;
+    background-color: lightgreen;   
+    color: darkgreen;
+    border-radius:20px;
+}
+button:hover{
+    text-shadow: 2px 2px 4px darkgreen;
+    font-size: 24px;
+}
+
+
+
+
+

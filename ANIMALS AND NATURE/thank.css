@@ -1,0 +1,47 @@
+*{
+    margin:0 auto ;
+}
+html,body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+#bg5{
+    width: 100%;
+    position: relative;
+    height: 659px;
+    z-index: 1;
+}
+.thank-con{
+    z-index: 2;
+    color: darkgreen;
+    position: absolute;
+    top: 250px;
+    font-size: 40px;
+    left: 100px;
+    text-align:justify ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.info-con{
+    z-index: 3;
+    color: darkgreen;
+    position: absolute;
+    top: 330px;
+    font-size: 30px;
+    left: 110px;
+    margin-right: 45pc;
+    line-height: 44px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.buttonl{
+    border: 5px solid darkgreen;
+    font-size: 22px;
+    background-color: darkgreen;   
+    color: lightgreen;
+    border-radius:20px;
+
+}
+.buttonl:hover{
+    text-shadow: 2px 2px 4px lightgreen;
+    font-size: 23px;
+}
